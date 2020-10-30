@@ -1,0 +1,105 @@
+<!--Gemaakt door Ruben Bartelet op donderdag 29 okt. 2020-->
+<html>
+    <head>
+        <title>Opdracht 6.2 en 6.3 Informatica Digitaal</title>
+<style>
+    table, th, td{
+        border: 1px solid black;
+    }
+    li.circle{
+        list-style-type: circle;
+    }
+    li.square{
+        list-style-type: square;
+    }
+    li.roman{
+        list-style-type: upper-roman;
+    }
+    li.alpha{
+        list-style-type: lower-alpha;
+    }
+    li.image{
+       margin: 0;
+	   padding: 8px 0 8px 30px;
+	   list-style: none;
+	   background-image:url('https://ieni.org/assets/img/content/Ramon%20Moorlag.png');
+	   background-repeat: no-repeat;
+	   background-position: left center;
+	   background-size: 20px;
+    }
+    li.position_Inside{
+       list-style-position: inside;
+    }
+    li.position_Outside{
+       list-style-position: outside;
+    }
+    li.default{
+        color: red;
+        background: blue;
+        width:600px;
+        height:auto;
+        margin: 0;
+	    padding: 4px 10px 4px 20px;
+    }
+    p.font-family{
+        font-family: Times, Helvetica;
+    }
+</style>
+    </head>
+<body>
+    <h1>List Style Types Opdracht 6.1</h1>
+    <ol>
+        <li><p>list-style-type: waarde;</p></li>
+        <p>Dit attribuut kijkt naar wat er voor het genoemde woord staat. Hij kan 4 waardes aannemen:</p> 
+        <ol>
+            <li class='circle'>circle (rondje)</li>
+            <li class='square'>square (vierkant)</li> 
+            <li class='roman'>upper-roman (I, II, II)</li>
+            <li class='alpha'>lower-alpha (a, b, c)</li>
+        </ol>
+        <li><p>list-style-image: url('meneermoorlag.png');</p></li>
+        <p>Dit attribuut lijkt op het attribuut hiervoor maar dan met een afbeedling. Hij kan oneidig veel waardes hebben omdat je elke afbeelding kan toevoegen.
+        </p>
+        <ol>
+            <li class='image'>Zo kan je dus een lijst maken</li>
+            <li class='image'>met afbeeldingen</li>
+            <li class='image'>van bijvoorbeeld iemands hoofd.</li>
+            <li class='image'>Super Handig! IEDEREEN WIL DIT!</li>
+        </ol>
+        <li><p>list-style-position: waarde;</p></li>
+        <p>Dit attribuut zorgt ervoor of de waarde van het attribuut binnen of buiten de tabel zit. Hij kan de waardes outside of inside hebben.</p>
+        <ol>
+        <table class='table'>
+            <tr>
+            <th><li class='position_Outside'>Deze is erbuiten</li></th>
+            </tr>
+            <tr>
+            <th><li class='position_Inside'>Deze is erin</li></th>
+            </tr>
+        </table>
+        </ol>
+        <li class='default'><p>De default andere stijlen die voor elk ander element geleden als background, width, margin, height, color en padding.
+</p></li>
+        </ol>
+        <br>
+    <h1>Font Style Types Opdracht 6.2</h1>
+    <ol>
+        <li><p>font: waarde, Font, Font;</p></li>
+        <p>Dit attribuut is de default en kan je verschillende dingen invoegen als groote en type font.</p>
+        <li><p>font-family: Font, Font, Font;</p></li>
+        <p class='font-family'>Hier kan je meerdere fonts invoegen. Als een van de fonts niet werkt in de browser pakt hij een andere.</p>
+        <li><p>font-size: waarde;</p></li>
+        <p>Met dit attribuut kun je de grootte van de text veranderden. Dit kan je op 3 verschillende manieren doen: <br><span style='font-size:25px'>25px, </span><span style='font-size:200%'>69%, </span><span style='font-size:large'>large, </span><span style='font-size:medium'>medium</span> en <span style='font-size:small'>small. </span>
+        <li>font-style: waarde;</li>
+        <p>Dit attribuut zorgt voor de stijl van de front. Het kan de waardes <span style='font-style: normal;'>normal(normaal), </span><span style='font-style: oblique;'>oblique(schuingedrukt)</span> of <span style='font-style: italic;'>italic(cursief)</span> bevatten.</p>
+        <li>font-variant: waarde;</li>
+        <p>Hiermee kan je de variant van de text veranderen. Je hebt bijvoorbeeld normal(normaal) en <span style='font-variant: small-caps'>small-caps.</span>
+</p>
+       <li>font-weight: waarde;</li>
+       <p>Met dit attribuut kun je aangeven hoe dik je de text wilt hebben. De waardes zijn: normal(normaal),<span style='font-weight: lighter;'> lighter(lichter), </span><span style='font-weight: bold;'>bold(dik) </span>en een waarde <span style='font-weight: 900;'>met een getal hoe dik het kan zijn (met een maximum van</span><span style='font-weight: 1000;'>  1000).</span>
+</p>   
+</ol>
+    <p>Doe CTRL+U om de code te zien.</p>
+    <p style='font-size:small'>Gemaakt door Ruben Bartelet</p>
+</body>
+</html>
